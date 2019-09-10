@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Kamperem na wschód (Część 1)
-date: 2019-06-01
+title: Wschód Polski z namiotem
+date: 2018-07-28
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: post-6.jpg # Add image post (optional)
-tags: [Kamperowanie, Polska]
+img: Wchod_z_namiotem.jpg # Add image post (optional)
+tags: [Namiot, Polska]
 author: # Add name author (optional)
 ---
 
