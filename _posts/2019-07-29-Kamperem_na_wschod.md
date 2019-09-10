@@ -7,8 +7,11 @@ img: Kamperem_na_wschod.JPG
 tags: [Kamperowanie, Polska]
 author: # Add name author (optional)
 ---
-
-# Kamperem na wschód (część 2)
+## Statystyka
+* 1500 km przejechanych
+* 18 odwiedzonych miejsc
+* 10 noclwgów na dziko
+* 4 Kempingi
 
 ## Dzień 1 (29.06.2019)
 Wyjechaliśmy z Wrocławia 29 czerwca 2019r. W planie było odwiedzić parki narodowe po wschodniej części polski. Jechaliśmy i spotkała nas straszna burza. Byliśmy przerażeni. Gdy burza ucichła pojechaliśmy  na frytki z McDonalda. Jechaliśmy dalej. Przyjechaliśmy na biwak w Narwiańskim Parku Narodowym w którym skończyliśmy poprzednią wyprawę kamperem kilka miesięcy wcześniej. 
