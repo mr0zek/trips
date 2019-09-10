@@ -1,9 +1,9 @@
----
+﻿---
 layout: post
 title: Kamperem na wschód (Część 2)
 date: 2019-06-29
 description: # Add post description (optional)
-img: post-6.jpg # Add image post (optional)
+img: DSC_0466.JPG
 tags: [Kamperowanie, Polska]
 author: # Add name author (optional)
 ---
