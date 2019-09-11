@@ -55,7 +55,7 @@ $(function () {
   }
 
   $('.gallery').html(
-    `<div data-nanogallery2='{
+    `<div data-nanogallery2='{ 
       "userID": "184392815@N04",
       "kind": "flickr",
       "photoset": "72157710794650718",
