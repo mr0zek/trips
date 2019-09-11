@@ -8,10 +8,10 @@ tags: [Kamperowanie, Polska]
 author: # Add name author (optional)
 ---
 ## Statystyka
-* 1500 km przejechanych
+* 1500 przejechanych kilmoetrów
 * 18 odwiedzonych miejsc
-* 10 noclwgów na dziko
-* 4 Kempingi
+* 10 noclegów na dziko
+* 4 kempingi
 * 4 razy problemy techniczne
 
 ## Dzień 1 (29.06.2019)
