@@ -1,7 +1,6 @@
 .highlight {
   background-color: #faf9f9;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   margin: 0;
 }
 
@@ -9,8 +8,7 @@
   color: #87314e;
   font-weight: 400;
   border: 1px solid #607D8B;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   padding: 0.1rem 0.5rem;
 }
 
@@ -1199,10 +1197,8 @@ pre code {
   margin-bottom: 100px;
   background-color: #fff;
   padding: 20px;
-  -webkit-border-top-left-radius: 20px;
-          border-top-left-radius: 20px;
-  -webkit-border-top-right-radius: 20px;
-          border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
 }
@@ -1361,8 +1357,7 @@ pre code {
   max-width: 100%;
   color: #3e3e40;
   border: none;
-  -webkit-border-radius: 2px;
-          border-radius: 2px;
+  border-radius: 2px;
   font-size: 14px;
   outline: none;
 }
@@ -1380,8 +1375,7 @@ pre code {
   vertical-align: baseline;
   cursor: pointer;
   border: none;
-  -webkit-border-radius: 2px;
-          border-radius: 2px;
+  border-radius: 2px;
   outline: none;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -1414,8 +1408,7 @@ pre code {
   width: 120px;
   height: 120px;
   margin-right: 30px;
-  -webkit-border-radius: 100%;
-          border-radius: 100%;
+  border-radius: 100%;
 }
 
 .author-box .author-desc h2 {
@@ -1485,8 +1478,7 @@ pre code {
 .about-header .author-image-container {
   width: 100px;
   height: 100px;
-  -webkit-border-radius: 100%;
-          border-radius: 100%;
+  border-radius: 100%;
   overflow: hidden;
   margin: 0 auto 30px;
 }
