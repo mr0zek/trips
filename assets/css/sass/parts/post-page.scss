@@ -22,11 +22,21 @@
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
+.map {
+  height: 400px;
+  width: 600px;
+  top: 10px;
+  right: 25px;
+  bottom: 0;
+  position: absolute;
+  z-index: 100;
+}
+
 .header-page {
   position: relative;
   margin-bottom: 30px;
   h1 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 36px;
     text-align: center;
@@ -58,7 +68,7 @@
       text-decoration: none;
       color: $dark-pink;
       &:hover {
-        opacity: .8;
+        opacity: 0.8;
       }
     }
   }
@@ -69,7 +79,7 @@
       margin-left: 10px;
       font-size: 18px;
       &:hover {
-        opacity: .8;
+        opacity: 0.8;
       }
     }
   }
@@ -80,7 +90,7 @@
   padding-bottom: 30px;
   border-bottom: 1px solid $lighten-gray;
   .recent-title {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     color: $dark-purple;
     text-align: center;
@@ -94,7 +104,7 @@
       height: 150px;
       margin-left: 0.5%;
       margin-bottom: 0.5%;
-      transition: all .3s;
+      transition: all 0.3s;
       span {
         position: absolute;
         font-size: 12px;
@@ -167,7 +177,7 @@
       border: none;
       border-radius: 2px;
       outline: none;
-      transition: all .3s;
+      transition: all 0.3s;
       &:hover {
         background-color: $dark-pink;
       }

@@ -761,12 +761,15 @@ template {
 }
 
 /* = = = = = = = = = = Main Styles = = = = = = = = = = */
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   overflow-x: hidden;
 }
@@ -776,7 +779,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #3e3e40;
   margin: 0;
   background-color: #fff;
@@ -785,8 +788,13 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
   color: #311e3e;
   font-weight: 400;
 }
@@ -876,7 +884,8 @@ pre code {
   color: #ffffff;
 }
 
-.clearfix::before, .clearfix::after {
+.clearfix::before,
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -1203,13 +1212,23 @@ pre code {
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
+.map {
+  height: 400px;
+  width: 600px;
+  top: 10px;
+  right: 25px;
+  bottom: 0;
+  position: absolute;
+  z-index: 100;
+}
+
 .header-page {
   position: relative;
   margin-bottom: 30px;
 }
 
 .header-page h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 36px;
   text-align: center;
@@ -1248,7 +1267,7 @@ pre code {
 }
 
 .page-footer .page-tag a:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .page-footer .page-share a {
@@ -1259,7 +1278,7 @@ pre code {
 }
 
 .page-footer .page-share a:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .recent-box {
@@ -1269,7 +1288,7 @@ pre code {
 }
 
 .recent-box .recent-title {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #311e3e;
   text-align: center;
@@ -1283,8 +1302,8 @@ pre code {
   height: 150px;
   margin-left: 0.5%;
   margin-bottom: 0.5%;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .recent-box .recent-list .recent-item span {
@@ -1377,8 +1396,8 @@ pre code {
   border: none;
   border-radius: 2px;
   outline: none;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .newsletter .newsletter-box .subscribe-btn:hover {

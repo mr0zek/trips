@@ -1,4 +1,98 @@
 $(function () {
+  if (geoJson != undefined) {
+    var map = L.map('map');
+
+    var popups = {}
+
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
+
+    function onEachFeature(feature, layer) {
+      if (feature.properties && feature.properties.popupContent) {
+        let popup = layer.bindPopup(feature.properties.popupContent);
+        if (popup.feature.properties && popup.feature.properties.id) {
+          popups[popup.feature.properties.id] = popup;
+        }
+      }
+    }
+
+    jsonLayer = L.geoJSON(geoJson, {
+      onEachFeature: onEachFeature,
+      style: function (feature) {
+        if (feature.properties != undefined && feature.properties.stroke != undefined) {
+          var style = {
+            color: feature.properties["stroke"],
+            weight: feature.properties["stroke-width"],
+            opacity: feature.properties["stroke-opacity"]
+          }
+          return style;
+        }
+      }
+    }).addTo(map);
+
+    map.fitBounds(jsonLayer.getBounds());
+  }
+
+  function focusOnMarker(id, zoomLevel) {
+
+    var c = geoJson.features.filter(el => el.properties.id == id || el.properties.name == id)
+
+    var coord = c[0].geometry.coordinates
+
+    lalo = L.GeoJSON.coordsToLatLng(coord);
+    popups[c[0].properties.id].openPopup();
+
+    if (zoomLevel != undefined) {
+      let currentZoom = map.getZoom()
+      if (currentZoom > zoomLevel) {
+        map.setView(lalo)
+      }
+      else {
+        map.setView(lalo, zoomLevel)
+      }
+    }
+    else {
+      map.setView(lalo)
+    }
+  }
+
+  function focusOnRoute(id) {
+
+    var c = geoJson.features.filter(el => el.properties.id == id)
+
+    var coords = c[0].geometry.coordinates;
+    var geom = L.GeoJSON.coordsToLatLngs(coords);
+    var line = L.polyline(geom);
+    popups[id].openPopup();
+
+    map.fitBounds(line.getBounds());
+  }
+
+  $(".focus").click(function () {
+    let markerId = $(this).data("marker-id");
+    let markerZoomLevel = $(this).data("marker-zoom-level");
+    focusOnMarker(markerId, markerZoomLevel);
+  })
+
+  $(".focus-on-route").click(function () {
+    let routeId = $(this).data("route-id");
+    focusOnRoute(routeId);
+  })
+
+  $('.flex-container').scroll(function () {
+    alert('ok');
+    var winTop = $(this).scrollTop();
+
+    $(".focus").each(function () {
+      var section = $(this).offset().top;
+      if (winTop >= section - 400) {
+        $(this).click();
+      }
+    });
+  });
+})
+
+
+$(function () {
   // Cache variables for increased performance on devices with slow CPUs.
   var flexContainer = $('div.flex-container')
   var searchBox = $('.search-box')

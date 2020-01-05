@@ -2,14 +2,16 @@
 @import "syntax";
 @import "tools/normalize";
 
-
 /* = = = = = = = = = = Main Styles = = = = = = = = = = */
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   overflow-x: hidden;
 }
@@ -19,7 +21,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: $dark-gray;
   margin: 0;
   background-color: $white;
@@ -28,8 +30,13 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
   color: $dark-purple;
   font-weight: 400;
 }
@@ -66,7 +73,7 @@ pre {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  transition: transform .4s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+  transition: transform 0.4s cubic-bezier(0.16, 0.68, 0.43, 0.99);
 }
 
 .flex-container.active {
@@ -79,7 +86,7 @@ pre {
     bottom: 0;
     left: 0;
     z-index: 2;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -104,7 +111,8 @@ pre {
   color: #ffffff;
 }
 
-.clearfix::before, .clearfix::after {
+.clearfix::before,
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -126,7 +134,6 @@ pre {
 /* = = = = = = = = = = Pagination Styles = = = = = = = = = = */
 @import "parts/pagination";
 
-
 /* = = = = = = = = = = Footer Styles = = = = = = = = = = */
 @import "parts/footer";
 
@@ -146,4 +153,4 @@ pre {
 @import "parts/animate";
 
 /* = = = = = = = = = = Media = = = = = = = = = = */
-@import "media"
+@import "media";

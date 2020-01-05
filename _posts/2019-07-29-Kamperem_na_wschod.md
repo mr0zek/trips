@@ -7,6 +7,9 @@ img: Kamperem_na_wschod.JPG
 tags: [Kamperowanie, Polska]
 author: # Add name author (optional)
 ---
+
+<script src="{{site.baseurl}}/assets/js/result.js"></script>
+
 ## Statystyka
 * 1500 przejechanych kilometrów
 * 18 odwiedzonych miejsc
@@ -15,7 +18,15 @@ author: # Add name author (optional)
 * 4 razy problemy techniczne
 * 1 urwany stopień - 1 naprawiony stopień 
 
-## Dzień 1 (29.07.2019) - Podróż, McDonald, Narwiański park Narodowy
+## Dzień 1 (29.07.2019) - Podróż, McDonald, Narwiański park Narodowy 
+<button class="focus" data-marker-id="111">Pokaż na mapie</button>
+
+<button class="focus-on-route" data-route-id="2019-08-01">Pokaż na dzien 5</button>
+<button class="focus-on-route" data-route-id="2019-08-02">Pokaż na dzien 6</button>
+<button class="focus-on-route" data-route-id="2019-08-03">Pokaż na dzien 7</button>
+<a href="#" class="focus-on-route" data-route-id="2019-08-04">Pokaż na dzien 8</a>
+
+
 Wyjechaliśmy z Wrocławia 29 czerwca 2019r. W planie było odwiedzić parki narodowe po wschodniej części polski. Jechaliśmy i spotkała nas straszna burza. Byliśmy przerażeni. Gdy burza ucichła pojechaliśmy  na frytki z McDonalda. Jechaliśmy dalej. Przyjechaliśmy na biwak w Narwiańskim Parku Narodowym w którym skończyliśmy poprzednią wyprawę kamperem kilka miesięcy wcześniej. 
 Poszliśmy się wykąpać a prysznic były tony much i ciem. Potem z tatą poszliśmy szukać bobra którego słyszeliśmy na polu namiotowym. Okazało się że Tata nas wkęcał i to ktoś chrapał w namiocie. 
 
@@ -29,7 +40,7 @@ Byliśmy też na krużganku i wieży. Potem wróciliśmy do kampera. Mama bardzo
 Potem przyjechaliśmy na kęping w Goniądzu.
 Połowiliśmy trochę ryby i wyskakaliśmy sie na trampolinie za wsze czasy.
 Podczas buży pod Tykociniem okazało się że nasz kamper trochę przecieka koło wyetrznika w kuchni. Staraliśmy się przykryć workiem wylot żeby tam deszcz nie napadał ale na niewiele się to zdało.
-Byliśmy też w pierogarni i kupiliśmy (oraz zjedliśmy) :
+Byliśmy też w <a href="#" class="focus" data-marker-id="Pierogarnia Tykocińska">pierogarni</a> i kupiliśmy (oraz zjedliśmy) :
 1. Twarożek na słodko
 2. Pielmienie
 3. Kibiny
