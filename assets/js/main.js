@@ -7,8 +7,8 @@ $(function () {
     L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
 
     function onEachFeature(feature, layer) {
-      if (feature.properties && feature.properties.popupContent) {
-        let popup = layer.bindPopup(feature.properties.popupContent);
+      if (feature.properties && feature.properties.name) {
+        let popup = layer.bindPopup(feature.properties.name);
         if (popup.feature.properties && popup.feature.properties.id) {
           popups[popup.feature.properties.id] = popup;
         }
@@ -34,7 +34,7 @@ $(function () {
 
   function focusOnMarker(id, zoomLevel) {
 
-    var c = geoJson.features.filter(el => el.properties.id == id || el.properties.name == id)
+    var c = geoJson.features.filter(el => el.properties.id == id)
 
     var coord = c[0].geometry.coordinates
 
@@ -68,9 +68,9 @@ $(function () {
   }
 
   $(".focus").click(function () {
-    let markerId = $(this).data("marker-id");
+    let id = $(this).data("marker-id");
     let markerZoomLevel = $(this).data("marker-zoom-level");
-    focusOnMarker(markerId, markerZoomLevel);
+    focusOnMarker(id, markerZoomLevel);
   })
 
   $(".focus-on-route").click(function () {
