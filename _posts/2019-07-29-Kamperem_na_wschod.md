@@ -8,7 +8,7 @@ tags: [Kamperowanie, Polska]
 author: # Add name author (optional)
 ---
 
-<script src="{{site.baseurl}}/assets/js/result.js"></script>
+<script src="{{site.baseurl}}/assets/js/2019-07-29-map.js"></script>
 
 ## Statystyka
 * 2046 przejechanych kilometrów
