@@ -28,12 +28,12 @@ Poszliśmy się wykąpać a prysznic były tony much i ciem. Potem z tatą poszl
 <a href="#" class="focus-on-route" data-route-id="2019-07-30">Pokaż na mapie</a>
 
 Drugi dzień rozpoczął się szybkim opuszczeniem kempingu bo nie mieliśmy bułek na śniadanie. Pojechaliśmy do prawdziwej piekarni po 10 bułek (po 20gr jedna). Niestety jak to pisze to jem też maliny pobrudziłem kartkę :).
-O godzinie 10:00 zaczęliśmy kupować rzeczy na pchlim targu (TODO: w jakiej miejscowości ).
-O godzinie 11:00 zwiedzialiśmy zamek w Tykocinie. Byliśmy w wielkiej sali szklanej gdzie był 4,05 m piec kaflowy!
+O godzinie 10:00 zaczęliśmy kupować rzeczy na pchlim targu w Tykocinie.
+O godzinie 11:00 zwiedziliśmy zamek w Tykocinie. Byliśmy w wielkiej sali szklanej gdzie był 4,05 m piec kaflowy!
 Byliśmy też na krużganku i wieży. Potem wróciliśmy do kampera. Mama bardzo się cieszy jak pije kawę pod zamkiem w Tykocinie.
-Potem przyjechaliśmy na kęping w Goniądzu.
+Potem przyjechaliśmy na kemping w Goniądzu.
 Połowiliśmy trochę ryby i wyskakaliśmy sie na trampolinie za wsze czasy.
-Podczas buży pod Tykociniem okazało się że nasz kamper trochę przecieka koło wyetrznika w kuchni. Staraliśmy się przykryć workiem wylot żeby tam deszcz nie napadał ale na niewiele się to zdało.
+Podczas buży pod Tykocinem okazało się że nasz kamper trochę przecieka koło wyetrznika w kuchni. Staraliśmy się przykryć workiem wylot żeby tam deszcz nie napadał ale na niewiele się to zdało.
 Byliśmy też w <a href="#" class="focus" data-marker-id="Pierogarnia Tykocińska">pierogarni</a> i kupiliśmy (oraz zjedliśmy) :
 1. Twarożek na słodko
 2. Pielmienie
@@ -45,7 +45,7 @@ Byliśmy też w <a href="#" class="focus" data-marker-id="Pierogarnia Tykocińsk
 
 Trzeci dzień rozpoczął się długim spaniem - tak do 9-tej.
 Zapowiadało się na dzień leniucha. Zjedliśmy śniadanie i nigdzie nie pojechaliśmy :)
-Mikołaj łowił Halibuty w rzece (TODO: jakiej rzece)
+Mikołaj łowił Halibuty w Biebrzy.
 Pojechaliśmy a mama kupiła mi foremki dopieczenia - juppi !!!!
 
 ## Dzień 4 (1.08.2019) - Twierdza osowiec
@@ -119,7 +119,7 @@ Wyruszyliśmy w kierunku Mikołajek ale po drodze nocowaliśmy w miasteczku Ełk
 ## Dzień 10 (7.08.2019) - Śniadanie mistrzów, galeria w Ełku
 <a href="#" class="focus-on-route" data-route-id="2019-08-07">Pokaż na mapie</a>
 
-Z rana wyprawa do lidla - kupiliśmy hoddogi i pizzerki na śniadanie mistrzów. Potem poszliśmy do glerii handlowej. Kupiłem sobie karty pokemon (TODO: jaka talia), mama książki.
+Z rana wyprawa do lidla - kupiliśmy hoddogi i pizzerki na śniadanie mistrzów. Potem poszliśmy do glerii handlowej. Kupiłem sobie karty pokemon, mama książki.
 Po zakupach pojechaliśmy na kemping Rożyńsk. 
 Chlupaliśmy się w jeziorze a pod koniec dnia oglądaliśmy Asterixa i Obelixa.
 
@@ -136,8 +136,7 @@ Spaliśmy na dziko pod Urzędem Miasta w Rynie koło kolorowej fontanny.
 ## Dzień 12 (9.08.2019) - Giżycko
 <a href="#" class="focus-on-route" data-route-id="2019-08-09">Pokaż na mapie</a>
 
-Dzień w podróży. Przejechaliśmy sie do Giżycka i widzieliśmy paradę (TODO: czego ktos pamięta ?)
-A potem pojechaliśmy do Mrągowa.
+Dzień w podróży. Przejechaliśmy sie do Giżycka i widzieliśmy paradę pt. OPERACJA BOYEN 2019 zorganizowaną przy udziale 15 Giżyckiej Brygady Zmechanizowanej. A potem pojechaliśmy do Mrągowa.
 
 ## Dzień 13 (10.08.2019) - Przejażdżka czołgiem w Mrągowie
 <a href="#" class="focus-on-route" data-route-id="2019-08-10">Pokaż na mapie</a>
