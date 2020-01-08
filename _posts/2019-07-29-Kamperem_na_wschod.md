@@ -11,28 +11,22 @@ author: # Add name author (optional)
 <script src="{{site.baseurl}}/assets/js/result.js"></script>
 
 ## Statystyka
-* 1500 przejechanych kilometrów
-* 18 odwiedzonych miejsc
+* 2046 przejechanych kilometrów
+* 55 odwiedzonych miejsc
 * 10 noclegów na dziko
 * 4 kempingi
 * 4 razy problemy techniczne
 * 1 urwany stopień - 1 naprawiony stopień 
 
 ## Dzień 1 (29.07.2019) - Podróż, McDonald, Narwiański park Narodowy 
-<button class="focus" data-marker-id="111">Pokaż na mapie</button>
-
-<button class="focus-on-route" data-route-id="2019-08-01">Pokaż na dzien 5</button>
-<button class="focus-on-route" data-route-id="2019-08-02">Pokaż na dzien 6</button>
-<button class="focus-on-route" data-route-id="2019-08-03">Pokaż na dzien 7</button>
-<a href="#" class="focus-on-route" data-route-id="2019-08-04">Pokaż na dzien 8</a>
-
+<a href="#" class="focus-on-route" data-route-id="2019-07-29">Pokaż na mapie</a>
 
 Wyjechaliśmy z Wrocławia 29 czerwca 2019r. W planie było odwiedzić parki narodowe po wschodniej części polski. Jechaliśmy i spotkała nas straszna burza. Byliśmy przerażeni. Gdy burza ucichła pojechaliśmy  na frytki z McDonalda. Jechaliśmy dalej. Przyjechaliśmy na biwak w Narwiańskim Parku Narodowym w którym skończyliśmy poprzednią wyprawę kamperem kilka miesięcy wcześniej. 
 Poszliśmy się wykąpać a prysznic były tony much i ciem. Potem z tatą poszliśmy szukać bobra którego słyszeliśmy na polu namiotowym. Okazało się że Tata nas wkęcał i to ktoś chrapał w namiocie. 
 
-<div class="gallery" data-album-name="A" data-date="2019-06-29"></div>
-
 ## Dzień 2 (30.07.2019) - Piekarnia, pchli targ, Zamek w Tykocinie
+<a href="#" class="focus-on-route" data-route-id="2019-07-30">Pokaż na mapie</a>
+
 Drugi dzień rozpoczął się szybkim opuszczeniem kempingu bo nie mieliśmy bułek na śniadanie. Pojechaliśmy do prawdziwej piekarni po 10 bułek (po 20gr jedna). Niestety jak to pisze to jem też maliny pobrudziłem kartkę :).
 O godzinie 10:00 zaczęliśmy kupować rzeczy na pchlim targu (TODO: w jakiej miejscowości ).
 O godzinie 11:00 zwiedzialiśmy zamek w Tykocinie. Byliśmy w wielkiej sali szklanej gdzie był 4,05 m piec kaflowy!
@@ -47,17 +41,23 @@ Byliśmy też w <a href="#" class="focus" data-marker-id="Pierogarnia Tykocińsk
 4. ???
 
 ## Dzień 3 (31.07.2019) - Dzień leniucha - halibuty w goniądzu
+<a href="#" class="focus" data-marker-id="Agroturystyka Sośniaki">Pokaż na mapie</a>
+
 Trzeci dzień rozpoczął się długim spaniem - tak do 9-tej.
 Zapowiadało się na dzień leniucha. Zjedliśmy śniadanie i nigdzie nie pojechaliśmy :)
 Mikołaj łowił Halibuty w rzece (TODO: jakiej rzece)
 Pojechaliśmy a mama kupiła mi foremki dopieczenia - juppi !!!!
 
 ## Dzień 4 (1.08.2019) - Twierdza osowiec
+<a href="#" class="focus-on-route" data-route-id="2019-08-01">Pokaż na mapie</a>
+
 Na 10 pojechaliśmy do twierdzy osowiec. Przewodnik był dość specyficzny i fajny zarazem. Zadawał zagadki i dawał łuski (takie od naboji) za dobrą odpowiedź.
 Pojechaliśmy na rynek do Augustowa. 
 Potem szukaliśmy kempingu ale nie było niczego fajnego więc spaliśmy na dziko pod kościołem w Augustowie.
 
 ## Dzień 5 (2.08.2019) - Augustów, park linowy
+<a href="#" class="focus-on-route" data-route-id="2019-08-02">Pokaż na mapie</a>
+
 Dzień ropoczął się niezpodzianką - pojechaliśmy do parku linowego. Ja poszedłem na trasę żółtą a Misiek na pomarańczową.
 
 * Pomarańczowa - łatwa
@@ -69,6 +69,8 @@ Potem poszliśmy na molo - nie było nikogo. Potem poszliśmy do kampera coś zj
 Dojechaliśmy do muzeum wigier. Było już za późno żeby zwiedzać. Spędziliśmy noc na dziko - na parkingu przy muzeum.
 
 ## Dzień 6 (3.08.2019) - Muzeum wigier, ścieżka Las i Suchary, Wigry (u Haliny)
+<a href="#" class="focus-on-route" data-route-id="2019-08-03">Pokaż na mapie</a>
+
 Dzień rozpoczął się zwiedzaniem muzeum wigier. Dostaliśmy mini radyjka które odtwarzały nagrania jak się przechodziło z pokoju do pokoju. Po kilku chwilach udało mi się zawiesić urządzanie. Przestało reagować. Trudno - tata dał mi swoje. Tego już nie zepsułem.
 Potem zwiedzaliśmy salę przedstawiającą lodowiec a potem łowców reniferów. Potem przeszliśmy do sali przedstawiająca wodę w Wigierskim Parku Narodowym. Aaaa jeszcze była bardo fajna sala gdzie można było posłuchać odgłosów ptaków.
 No i oczywiście była sala opisująca nietoperze.
@@ -82,6 +84,8 @@ Na nabożeństwie fatimskim ksiądz mnie poprosił żebym niósł relikwie. I ta
 Wieczorem poszliśmy na pomośt szukać ryb do złowienia. Ryb było dużo ale ni mieliśmy siatki na ryby. Była jedna głęboko w wodzie. Postanowiliśmy ja wyłowić.
 
 ## Dzień 7 (4.08.2019) - Łowienie małży, wieczorny Łoś
+<a href="#" class="focus-on-route" data-route-id="2019-08-04">Pokaż na mapie</a>
+
 Rano tata musiał popracować, a my sie bawiliśmy. Za jakiś czas poszliśmy na spacer wokoło klasztoru. Jedliśmy pierogi wigierskie z owocami a w powrotnej drodze zajadaliśmy się precelkami.
 
 Na kępingu poszliśmy na pomost łowić maurze siatka którą udało się wyłowić z wody patykiem.
@@ -96,10 +100,14 @@ Postawiliśmy kampera w polu i wyruszyliśmy na rowery czerwonym szlakiem o godz
 Wieczorem zaczęliśmy szukać miejsca do spania zobaczyliśmy na polu łosia który wyszedł z lasu - prawdziwego łosia !!!
 
 ## Dzień 8 (5.08.2019) - Czarna Hańcza
+<a href="#" class="focus-on-route" data-route-id="2019-08-05">Pokaż na mapie</a>
+
 Wstaliśmy rano o 8 do tego nia mieliśmy w planach spływ kajakowy Czarną Hańczą z Maćkowej Rudy do Fracek.
 Po spływie przejechaliśmy do miasteczka i w sklepie kupiłem sobie Magnuma :)
 
 ## Dzień 9 (6.08.2019) - Sciezka Jeziora, Ełk
+<a href="#" class="focus-on-route" data-route-id="2019-08-06">Pokaż na mapie</a>
+
 Rankiem tata i Mikołaj poszli do sklepu bo nie mieliśmy jajek. Niestety jajek nie przynieśli.
 Po śniadaniu jedziemy na rowery na ścieżkę Jeziora.
 Po rowerach byliśmy głodni i pojechaliśmy do restauracji.
@@ -109,11 +117,15 @@ Wyruszyliśmy w kierunku Mikołajek ale po drodze nocowaliśmy w miasteczku Ełk
 Śpimy na dziko na osiedlu domków jednorodzinnych.
 
 ## Dzień 10 (7.08.2019) - Śniadanie mistrzów, galeria w Ełku
+<a href="#" class="focus-on-route" data-route-id="2019-08-07">Pokaż na mapie</a>
+
 Z rana wyprawa do lidla - kupiliśmy hoddogi i pizzerki na śniadanie mistrzów. Potem poszliśmy do glerii handlowej. Kupiłem sobie karty pokemon (TODO: jaka talia), mama książki.
 Po zakupach pojechaliśmy na kemping Rożyńsk. 
 Chlupaliśmy się w jeziorze a pod koniec dnia oglądaliśmy Asterixa i Obelixa.
 
 ## Dzień 11 (8.08.2019) - Mikołajki, Ryn
+<a href="#" class="focus-on-route" data-route-id="2019-08-08">Pokaż na mapie</a>
+
 Wyjechaliśmy z kempingu i przejechaliśmy do mikołajek.
 Przeszliśmy przez most obeszliśmy rynek ale nic ciekawego nie znaleźliśmy poza chińszczyzna i ogromną ilością ludzi.
 Potem kupiłem sobie gofra z bitą śmietaną ... był dobry.
@@ -122,20 +134,28 @@ Załapaliśmy się na koncert Szant. Od tego czasu "Przechyły" są z nami cały
 Spaliśmy na dziko pod Urzędem Miasta w Rynie koło kolorowej fontanny.
 
 ## Dzień 12 (9.08.2019) - Giżycko
+<a href="#" class="focus-on-route" data-route-id="2019-08-09">Pokaż na mapie</a>
+
 Dzień w podróży. Przejechaliśmy sie do Giżycka i widzieliśmy paradę (TODO: czego ktos pamięta ?)
 A potem pojechaliśmy do Mrągowa.
 
 ## Dzień 13 (10.08.2019) - Przejażdżka czołgiem w Mrągowie
+<a href="#" class="focus-on-route" data-route-id="2019-08-10">Pokaż na mapie</a>
+
 Rano zebraliśmy się szybko bo tata obiecał nam niespodziankę. Okazało się że tą niespodzianką jest skansen pojazdów wojskowych.
 Mogliśmy wsiąść do rożnych pojazdów i na końcu przejechaliśmy się CZOŁGIEM !!!
 Po skansenie wsiedliśmy do kampera i pojechaliśmy na dobrze nam już znany kemping Alexa w chłapowie.
 Wieczorem udało się nam jeszcze zejść na plażę. Widzieliśmy jak ludzie puszczali lampiony. Troche to niebezpieczne szczególnie że wiatr jest od morza.
 
-## Dzień 14 (11.08.2019) - Leniuch na Alexie
+## Dzień 14-16 (11-13.08.2019) - Leniuch na Alexie
+<a href="#" class="focus" data-marker-id="Kemping Alexa">Pokaż na mapie</a>
+
 Dzień przeznaczony na odpoczynek czyli zabawa na placu zabaw, opalanie na plaży a popołudniem przyjechał cyrk z wielkim pytonem.
 Fajnie było go dotykać.
 
-## Dzień 15 (12.08.2019) - Problemy techniczne, powrót do domu  
+## Dzień 17 (14.08.2019) - Problemy techniczne, powrót do domu  
+<a href="#" class="focus-on-route" data-route-id="2019-08-14">Pokaż na mapie</a>
+
 Niestety mieliśmy problemy techniczne z kamperiem. Klika razy nie chciał nam zapalić :(
 Zdecydowaliśmy się wrócić do domu żeby go naprawić. Trochę odpocząć i dalej jechać.
 
