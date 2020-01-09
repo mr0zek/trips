@@ -5752,7 +5752,7 @@ let geoJson = {
         "stroke": "#FF0000",
         "stroke-width": 4,
         "stroke-opacity": 1,
-        "name": "Data : 2019-07-29<br/>\r\n           Początek : Wrocław<br/>\r\n           Koniec : Kemping Kurowo<br/>\r\n            Długość trasy : 518km<br/>",
+        "name": "Data : 2019-07-29<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Wrocław\">Wrocław</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Kemping Kurowo\">Kemping Kurowo</a><br/>\r\n           Długość trasy : 518km<br/>",
         "distance": 518592
       }
     },
@@ -6829,7 +6829,7 @@ let geoJson = {
         "stroke": "#00FF00",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "Data : 2019-07-30<br/>\r\n           Początek : Kemping Kurowo<br/>\r\n           Koniec : Agroturystyka Sośniaki<br/>\r\n            Długość trasy : 77km<br/>",
+        "name": "Data : 2019-07-30<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Kemping Kurowo\">Kemping Kurowo</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Agroturystyka Sośniaki\">Agroturystyka Sośniaki</a><br/>\r\n           Długość trasy : 77km<br/>",
         "distance": 77997
       }
     },
@@ -7187,12 +7187,12 @@ let geoJson = {
             53.537903
           ],
           [
-            22.906237,
-            53.546585
+            22.906244,
+            53.546589
           ],
           [
-            22.90535,
-            53.547302
+            22.905338,
+            53.547314
           ],
           [
             22.904285,
@@ -7203,16 +7203,20 @@ let geoJson = {
             53.548546
           ],
           [
+            22.905115,
+            53.549053
+          ],
+          [
             22.910341,
             53.551167
           ],
           [
-            22.907579,
-            53.553009
+            22.907623,
+            53.552986
           ],
           [
-            22.906931,
-            53.553398
+            22.906963,
+            53.553379
           ],
           [
             22.906652,
@@ -8118,7 +8122,7 @@ let geoJson = {
         "stroke": "#0000FF",
         "stroke-width": 4,
         "stroke-opacity": 1,
-        "name": "Data : 2019-08-01<br/>\r\n           Początek : Agroturystyka Sośniaki<br/>\r\n           Koniec : Parafia Świętej Rodziny<br/>\r\n            Długość trasy : 79km<br/>",
+        "name": "Data : 2019-08-01<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Agroturystyka Sośniaki\">Agroturystyka Sośniaki</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Parafia Świętej Rodziny\">Parafia Świętej Rodziny</a><br/>\r\n           Długość trasy : 79km<br/>",
         "distance": 79524
       }
     },
@@ -8812,148 +8816,172 @@ let geoJson = {
             54.039555
           ],
           [
-            22.940054,
-            54.039577
+            22.939899,
+            54.03973
           ],
           [
-            22.940565,
-            54.039536
+            22.939726,
+            54.03986
           ],
           [
-            22.949244,
-            54.036774
+            22.939465,
+            54.040394
           ],
           [
-            22.949652,
-            54.036705
+            22.939287,
+            54.041103
           ],
           [
-            22.949711,
-            54.036694
+            22.939054,
+            54.042221
           ],
           [
-            22.954773,
-            54.035831
+            22.937292,
+            54.050598
           ],
           [
-            22.95615,
-            54.035595
+            22.936968,
+            54.052143
           ],
           [
-            22.957731,
-            54.035324
+            22.936943,
+            54.052277
           ],
           [
-            22.96073,
-            54.034832
+            22.936874,
+            54.052685
           ],
           [
-            22.962749,
-            54.0345
+            22.936754,
+            54.053284
           ],
           [
-            22.964621,
-            54.034191
+            22.936483,
+            54.054451
           ],
           [
-            22.967655,
-            54.033195
+            22.936428,
+            54.054756
           ],
           [
-            22.968752,
-            54.03289
+            22.933874,
+            54.06699
           ],
           [
-            22.969086,
-            54.032883
+            22.933571,
+            54.068447
           ],
           [
-            22.969185,
-            54.032902
+            22.933338,
+            54.069572
           ],
           [
-            22.969255,
-            54.032932
+            22.933472,
+            54.07056
           ],
           [
-            22.969278,
-            54.033089
+            22.933634,
+            54.070656
           ],
           [
-            22.969702,
-            54.034538
+            22.933645,
+            54.070766
           ],
           [
-            22.970186,
-            54.036057
+            22.934132,
+            54.071213
           ],
           [
-            22.970284,
-            54.03764
+            22.936481,
+            54.072361
           ],
           [
-            22.97028,
-            54.037693
+            22.939016,
+            54.074921
           ],
           [
-            22.970266,
-            54.037743
+            22.939306,
+            54.076057
           ],
           [
-            22.970209,
-            54.037949
+            22.93943,
+            54.076359
           ],
           [
-            22.966261,
-            54.044392
+            22.939598,
+            54.077049
           ],
           [
-            22.966162,
-            54.044533
+            22.939867,
+            54.078041
           ],
           [
-            22.963665,
-            54.050545
+            22.940126,
+            54.079002
           ],
           [
-            22.962982,
-            54.052731
+            22.940275,
+            54.079548
           ],
           [
-            22.961491,
-            54.054611
+            22.941357,
+            54.083508
           ],
           [
-            22.958811,
-            54.05954
+            22.941536,
+            54.084179
           ],
           [
-            22.959242,
-            54.063587
+            22.941677,
+            54.084648
           ],
           [
-            22.955326,
-            54.071838
+            22.943293,
+            54.087646
           ],
           [
-            22.954195,
-            54.073212
+            22.943649,
+            54.088268
           ],
           [
-            22.953138,
-            54.075111
+            22.943913,
+            54.088848
           ],
           [
-            22.95265,
-            54.076061
+            22.944235,
+            54.089512
           ],
           [
-            22.952324,
-            54.076691
+            22.945784,
+            54.089092
           ],
           [
-            22.951174,
-            54.078972
+            22.946295,
+            54.088634
+          ],
+          [
+            22.946384,
+            54.088497
+          ],
+          [
+            22.94643,
+            54.088417
+          ],
+          [
+            22.946743,
+            54.087685
+          ],
+          [
+            22.948057,
+            54.085075
+          ],
+          [
+            22.948442,
+            54.08432
+          ],
+          [
+            22.950296,
+            54.080666
           ],
           [
             22.951097,
@@ -9303,8 +9331,8 @@ let geoJson = {
         "stroke": "#FFFF00",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "Data : 2019-08-02<br/>\r\n           Początek : Parafia Świętej Rodziny<br/>\r\n           Koniec : Muzeum Wigier<br/>\r\n            Długość trasy : 47km<br/>",
-        "distance": 47556
+        "name": "Data : 2019-08-02<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Parafia Świętej Rodziny\">Parafia Świętej Rodziny</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Muzeum Wigier\">Muzeum Wigier</a><br/>\r\n           Długość trasy : 47km<br/>",
+        "distance": 47135
       }
     },
     {
@@ -9760,7 +9788,7 @@ let geoJson = {
         "stroke": "#00FFFF",
         "stroke-width": 4,
         "stroke-opacity": 1,
-        "name": "Data : 2019-08-03<br/>\r\n           Początek : Muzeum Wigier<br/>\r\n           Koniec : Kęping u Haliny<br/>\r\n            Długość trasy : 16km<br/>",
+        "name": "Data : 2019-08-03<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Muzeum Wigier\">Muzeum Wigier</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Kęping u Haliny\">Kęping u Haliny</a><br/>\r\n           Długość trasy : 16km<br/>",
         "distance": 16069
       }
     },
@@ -10245,7 +10273,7 @@ let geoJson = {
         "stroke": "#FF00FF",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "Data : 2019-08-04<br/>\r\n           Początek : Kęping u Haliny<br/>\r\n           Koniec : Muzeum Wigier<br/>\r\n            Długość trasy : 16km<br/>",
+        "name": "Data : 2019-08-04<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Kęping u Haliny\">Kęping u Haliny</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Muzeum Wigier\">Muzeum Wigier</a><br/>\r\n           Długość trasy : 16km<br/>",
         "distance": 16596
       }
     },
@@ -11142,7 +11170,7 @@ let geoJson = {
         "stroke": "#C0C0C0",
         "stroke-width": 4,
         "stroke-opacity": 1,
-        "name": "Data : 2019-08-05<br/>\r\n           Początek : Muzeum Wigier<br/>\r\n           Koniec : Kościół rzymskokatolicki Matki Bożej Anielskiej<br/>\r\n            Długość trasy : 47km<br/>",
+        "name": "Data : 2019-08-05<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Muzeum Wigier\">Muzeum Wigier</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Kościół rzymskokatolicki Matki Bożej Anielskiej\">Kościół rzymskokatolicki Matki Bożej Anielskiej</a><br/>\r\n           Długość trasy : 47km<br/>",
         "distance": 47057
       }
     },
@@ -12535,7 +12563,7 @@ let geoJson = {
         "stroke": "#808080",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "Data : 2019-08-06<br/>\r\n           Początek : Kościół rzymskokatolicki Matki Bożej Anielskiej<br/>\r\n           Koniec : Maćka z Bogdańca 9<br/>\r\n            Długość trasy : 79km<br/>",
+        "name": "Data : 2019-08-06<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Kościół rzymskokatolicki Matki Bożej Anielskiej\">Kościół rzymskokatolicki Matki Bożej Anielskiej</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Maćka z Bogdańca 9\">Maćka z Bogdańca 9</a><br/>\r\n           Długość trasy : 79km<br/>",
         "distance": 79452
       }
     },
@@ -13240,7 +13268,7 @@ let geoJson = {
         "stroke": "#800000",
         "stroke-width": 4,
         "stroke-opacity": 1,
-        "name": "Data : 2019-08-07<br/>\r\n           Początek : Maćka z Bogdańca 9<br/>\r\n           Koniec : Camping \"SIEDLISKO ROŻYŃSK\"<br/>\r\n            Długość trasy : 22km<br/>",
+        "name": "Data : 2019-08-07<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Maćka z Bogdańca 9\">Maćka z Bogdańca 9</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Camping \"SIEDLISKO ROŻYŃSK\"\">Camping \"SIEDLISKO ROŻYŃSK\"</a><br/>\r\n           Długość trasy : 22km<br/>",
         "distance": 22320
       }
     },
@@ -14521,7 +14549,7 @@ let geoJson = {
         "stroke": "#808000",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "Data : 2019-08-08<br/>\r\n           Początek : Camping \"SIEDLISKO ROŻYŃSK\"<br/>\r\n           Koniec : Urząd Miasta Ryn<br/>\r\n            Długość trasy : 71km<br/>",
+        "name": "Data : 2019-08-08<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Camping \"SIEDLISKO ROŻYŃSK\"\">Camping \"SIEDLISKO ROŻYŃSK\"</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Urząd Miasta Ryn\">Urząd Miasta Ryn</a><br/>\r\n           Długość trasy : 71km<br/>",
         "distance": 71022
       }
     },
@@ -16398,7 +16426,7 @@ let geoJson = {
         "stroke": "#008000",
         "stroke-width": 4,
         "stroke-opacity": 1,
-        "name": "Data : 2019-08-09<br/>\r\n           Początek : Urząd Miasta Ryn<br/>\r\n           Koniec : Plaża Miejska Mrągowo<br/>\r\n            Długość trasy : 72km<br/>",
+        "name": "Data : 2019-08-09<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Urząd Miasta Ryn\">Urząd Miasta Ryn</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Plaża Miejska Mrągowo\">Plaża Miejska Mrągowo</a><br/>\r\n           Długość trasy : 72km<br/>",
         "distance": 72991
       }
     },
@@ -17748,12 +17776,12 @@ let geoJson = {
             53.742989
           ],
           [
-            19.886425,
-            53.746605
+            19.886812,
+            53.746418
           ],
           [
-            19.883968,
-            53.747757
+            19.884752,
+            53.747387
           ],
           [
             19.876198,
@@ -17808,8 +17836,8 @@ let geoJson = {
             53.776585
           ],
           [
-            19.816532,
-            53.778118
+            19.816118,
+            53.778214
           ],
           [
             19.811499,
@@ -19775,7 +19803,7 @@ let geoJson = {
         "stroke": "#800080",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "Data : 2019-08-10<br/>\r\n           Początek : Plaża Miejska Mrągowo<br/>\r\n           Koniec : Alexa Camping<br/>\r\n            Długość trasy : 315km<br/>",
+        "name": "Data : 2019-08-10<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Plaża Miejska Mrągowo\">Plaża Miejska Mrągowo</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Alexa Camping\">Alexa Camping</a><br/>\r\n           Długość trasy : 315km<br/>",
         "distance": 315074
       }
     },
@@ -19800,7 +19828,7 @@ let geoJson = {
         "stroke": "#008080",
         "stroke-width": 4,
         "stroke-opacity": 1,
-        "name": "Data : 2019-08-12<br/>\r\n           Początek : Alexa Camping<br/>\r\n           Koniec : Alexa Camping<br/>\r\n            Długość trasy : 0km<br/>",
+        "name": "Data : 2019-08-12<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Alexa Camping\">Alexa Camping</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Alexa Camping\">Alexa Camping</a><br/>\r\n           Długość trasy : 0km<br/>",
         "distance": 1
       }
     },
@@ -26137,7 +26165,7 @@ let geoJson = {
         "stroke": "#000080",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "Data : 2019-08-14<br/>\r\n           Początek : Alexa Camping<br/>\r\n           Koniec : Wrocław<br/>\r\n            Długość trasy : 681km<br/>",
+        "name": "Data : 2019-08-14<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Alexa Camping\">Alexa Camping</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Wrocław\">Wrocław</a><br/>\r\n           Długość trasy : 681km<br/>",
         "distance": 681830
       }
     }

@@ -14,7 +14,7 @@ author: # Add name author (optional)
 * 2046 przejechanych kilometrów
 * 55 odwiedzonych miejsc
 * 10 noclegów na dziko
-* 4 kempingi
+* 4 kempingi 
 * 4 razy problemy techniczne
 * 1 urwany stopień - 1 naprawiony stopień 
 
@@ -23,6 +23,12 @@ author: # Add name author (optional)
 
 Wyjechaliśmy z Wrocławia 29 czerwca 2019r. W planie było odwiedzić parki narodowe po wschodniej części polski. Jechaliśmy i spotkała nas straszna burza. Byliśmy przerażeni. Gdy burza ucichła pojechaliśmy  na frytki z McDonalda. Jechaliśmy dalej. Przyjechaliśmy na biwak w Narwiańskim Parku Narodowym w którym skończyliśmy poprzednią wyprawę kamperem kilka miesięcy wcześniej. 
 Poszliśmy się wykąpać a prysznic były tony much i ciem. Potem z tatą poszliśmy szukać bobra którego słyszeliśmy na polu namiotowym. Okazało się że Tata nas wkęcał i to ktoś chrapał w namiocie. 
+
+<div class="my-gallery">
+{% include gallery.html picturePath="https://lh3.googleusercontent.com/lB7QvMby3xlvL6gX77uEorN2aYrpcaLf947A6czBbk-lP6IHItSXHsRn4AiSdZhy8kL0Am9oA6XpRVQxnv-5-STFoibVvQbbA6teFxFGktMp7fyBhDBCAEE5SXwNUy5quKiYW_CvLIA" %} 
+{% include gallery.html picturePath="https://lh3.googleusercontent.com/1fD0Dm0F1KqvycMlhi-W6PmPSFX9JjsMVhyhoHeF8ov_gmNhDZMgTMa6XKqnvNmphoO6_3JvIMBDxWV0JJkXzIO1a31BcmUysn-196Xh64vmqoII_Vyv1i4p9C2JOKZ0DFGRzzS7RGQ" %}
+{% include gallery.html picturePath="https://lh3.googleusercontent.com/xtzOfXNW4qbIXCEQqGpdcCPEbCyiDfQqBM_N0a4XlYqLaxBNUKRXcMSUGwWWMR6REHlXwupRtuRikPzq64HBz_vS8T2OWkz5a7VFBAuyg3Ju4fz5F8wMh5YyOuWUteCwZ6irWG6nWQM" %}
+</div>
 
 ## Dzień 2 (30.07.2019) - Piekarnia, pchli targ, Zamek w Tykocinie
 <a href="#" class="focus-on-route" data-route-id="2019-07-30">Pokaż na mapie</a>
