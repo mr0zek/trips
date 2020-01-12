@@ -6634,12 +6634,20 @@ let geoJson = {
             53.36866
           ],
           [
+            22.591097,
+            53.369637
+          ],
+          [
             22.590239,
             53.370445
           ],
           [
             22.590065,
             53.370613
+          ],
+          [
+            22.589348,
+            53.371288
           ],
           [
             22.586988,
@@ -6830,7 +6838,7 @@ let geoJson = {
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "Data : 2019-07-30<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Kemping Kurowo\">Kemping Kurowo</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Agroturystyka Sośniaki\">Agroturystyka Sośniaki</a><br/>\r\n           Długość trasy : 77km<br/>",
-        "distance": 77997
+        "distance": 77998
       }
     },
     {
@@ -7181,6 +7189,10 @@ let geoJson = {
           [
             22.908245,
             53.535511
+          ],
+          [
+            22.912025,
+            53.536667
           ],
           [
             22.916073,

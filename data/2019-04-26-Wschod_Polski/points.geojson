@@ -1,0 +1,483 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0343017578125,
+          51.10977326953468
+        ]
+      },
+      "properties": {
+        "date": "2019-04-26 05:57:59",
+        "name": "Wrocław",
+        "id": "Wrocław"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.222143173217773,
+          51.301963806152344
+        ]
+      },
+      "properties": {
+        "date": "2019-04-26 11:40:36",
+        "name": "Auto Partner",
+        "address": "Chobanin 101a\n98-400 Chobanin\nPolska",
+        "id": "Auto Partner"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.832258224487305,
+          51.4965934753418
+        ]
+      },
+      "properties": {
+        "date": "2019-04-26 13:59:00",
+        "name": "Zespołu Szkół Rolniczych Centrum Kształenia",
+        "address": "Modrzewskiego 107\n97-320 Wolbórz\nPolska",
+        "id": "Zespołu Szkół Rolniczych Centrum Kształenia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.99847984313965,
+          51.44281005859375
+        ]
+      },
+      "properties": {
+        "date": "2019-04-26 16:05:55",
+        "name": "Church of Sts. John the Baptist",
+        "address": "26-652 Zakrzew\nPolska",
+        "id": "Church of Sts. John the Baptist"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9585018157959,
+          51.331302642822266
+        ]
+      },
+      "properties": {
+        "date": "2019-04-26 18:26:26",
+        "name": "Camping Nr 39",
+        "address": "Puławska 82\n24-120 Kazimierz Dolny\nPolska",
+        "id": "Camping Nr 39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9585018157959,
+          51.331302642822266
+        ]
+      },
+      "properties": {
+        "date": "2019-04-27 08:07:45",
+        "name": "Camping Nr 39",
+        "address": "Puławska 82\n24-120 Kazimierz Dolny\nPolska",
+        "id": "Camping Nr 39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9585018157959,
+          51.331302642822266
+        ]
+      },
+      "properties": {
+        "date": "2019-04-27 13:08:00",
+        "name": "Camping Nr 39",
+        "address": "Puławska 82\n24-120 Kazimierz Dolny\nPolska",
+        "id": "Camping Nr 39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9585018157959,
+          51.331302642822266
+        ]
+      },
+      "properties": {
+        "date": "2019-04-27 17:02:12",
+        "name": "Camping Nr 39",
+        "address": "Puławska 82\n24-120 Kazimierz Dolny\nPolska",
+        "id": "Camping Nr 39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.241287231445312,
+          51.226890563964844
+        ]
+      },
+      "properties": {
+        "date": "2019-04-28 10:15:09",
+        "name": "Animal park, Entertainment and Education",
+        "address": "24-204\nPolska",
+        "id": "Animal park, Entertainment and Education"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954069137573242,
+          51.36186981201172
+        ]
+      },
+      "properties": {
+        "date": "2019-04-28 13:57:24",
+        "name": "Petrol Station ORLEN",
+        "address": "35C\n21-075 Dąbrowa\nPolska",
+        "id": "Petrol Station ORLEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.00351905822754,
+          51.47673797607422
+        ]
+      },
+      "properties": {
+        "date": "2019-04-28 14:21:20",
+        "name": "Pole Namiotowe",
+        "address": "Orzechów-Kolonia 34,\n21-109 Orzechów-Kolonia\nPoland",
+        "id": "Pole Namiotowe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.00351905822754,
+          51.47673797607422
+        ]
+      },
+      "properties": {
+        "date": "2019-04-28 15:25:07",
+        "name": "Pole Namiotowe",
+        "address": "Orzechów-Kolonia 34,\n21-109 Orzechów-Kolonia\nPoland",
+        "id": "Pole Namiotowe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.00351905822754,
+          51.47673797607422
+        ]
+      },
+      "properties": {
+        "date": "2019-04-29 05:26:14",
+        "name": "Pole Namiotowe",
+        "address": "Orzechów-Kolonia 34,\n21-109 Orzechów-Kolonia\nPoland",
+        "id": "Pole Namiotowe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.121906280517578,
+          51.395912170410156
+        ]
+      },
+      "properties": {
+        "date": "2019-04-29 07:48:48",
+        "name": "Ośrodek Dydaktyczno-Muzealny Poleskiego Parku Narodowego w Starym Załuczu",
+        "address": "Stare Załucze 8\n22-234 Stare Załucze\nPolska",
+        "id": "Ośrodek Dydaktyczno-Muzealny Poleskiego Parku Narodowego w Starym Załuczu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.118762969970703,
+          51.4313850402832
+        ]
+      },
+      "properties": {
+        "date": "2019-04-29 11:10:00",
+        "name": "Polesie National Park",
+        "address": "DW819 36\n21-230\nPolska",
+        "id": "Polesie National Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.166833877563477,
+          51.48886489868164
+        ]
+      },
+      "properties": {
+        "date": "2019-04-29 13:33:12",
+        "name": "Parking",
+        "address": "Pieszowola\nPolska",
+        "id": "Parking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.155038833618164,
+          51.46601104736328
+        ]
+      },
+      "properties": {
+        "date": "2019-04-29 14:11:52",
+        "name": "Ścieżka przyrodniczo-historyczna \"Obóz Powstańczy\"",
+        "address": "Lipniak\n21-230 Sosnowica\nPolska",
+        "id": "Ścieżka przyrodniczo-historyczna \"Obóz Powstańczy\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.831756591796875,
+          52.26469039916992
+        ]
+      },
+      "properties": {
+        "date": "2019-04-29 20:25:17",
+        "name": "Gospodarstwo Agroturystyczne U Waldka - Lucyna i Waldemar Bielak",
+        "address": "08-210\nPolska",
+        "id": "Gospodarstwo Agroturystyczne U Waldka - Lucyna i Waldemar Bielak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.926965713500977,
+          52.38780212402344
+        ]
+      },
+      "properties": {
+        "date": "2019-04-30 09:02:27",
+        "name": "Kasztelik Crown Podlasie",
+        "address": "17-300 Siemiatycze\nPolska",
+        "id": "Kasztelik Crown Podlasie"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.00694465637207,
+          52.416080474853516
+        ]
+      },
+      "properties": {
+        "date": "2019-04-30 09:38:11",
+        "name": "Klasztor Prawosławny Św. Marty i Marii",
+        "address": "17-330 Grabarka\nPolska",
+        "id": "Klasztor Prawosławny Św. Marty i Marii"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.400985717773438,
+          52.91328811645508
+        ]
+      },
+      "properties": {
+        "date": "2019-04-30 13:52:55",
+        "name": "Parafia prawosławna pw. Opieki Matki Bożej w Puchłach",
+        "address": "49\n17-210 Puchły\nPolska",
+        "id": "Parafia prawosławna pw. Opieki Matki Bożej w Puchłach"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.447019577026367,
+          52.939754486083984
+        ]
+      },
+      "properties": {
+        "date": "2019-04-30 14:25:28",
+        "name": "Cerkiew św. Michała Archanioła w Trześciance",
+        "address": "Trześcianka 120\n17-210 Trześcianka\nPolska",
+        "id": "Cerkiew św. Michała Archanioła w Trześciance"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95176124572754,
+          52.947166442871094
+        ]
+      },
+      "properties": {
+        "date": "2019-04-30 16:07:12",
+        "name": "Active Tourism Center BAJDARKA",
+        "address": "Piłsudskiego 3\n18-105 Suraż\nPolska",
+        "id": "Active Tourism Center BAJDARKA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95176124572754,
+          52.947166442871094
+        ]
+      },
+      "properties": {
+        "date": "2019-05-01 11:56:37",
+        "name": "Active Tourism Center BAJDARKA",
+        "address": "Piłsudskiego 3\n18-105 Suraż\nPolska",
+        "id": "Active Tourism Center BAJDARKA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.81620216369629,
+          53.0777587890625
+        ]
+      },
+      "properties": {
+        "date": "2019-05-01 14:49:42",
+        "name": "Waniewo bridge by floodwaters Narwii",
+        "address": "Waniewo 22\n18-218 Waniewo\nPolska",
+        "id": "Waniewo bridge by floodwaters Narwii"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.868614196777344,
+          53.0727653503418
+        ]
+      },
+      "properties": {
+        "date": "2019-05-02 09:27:19",
+        "name": "Narew National Park",
+        "address": "Kurowo 10\n18-204 Kurowo\nPolska",
+        "id": "Narew National Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.492605209350586,
+          52.62044143676758
+        ]
+      },
+      "properties": {
+        "date": "2019-05-02 12:43:58",
+        "name": "Petrol Station ORLEN",
+        "address": "Białostocka 196\n07-221 Turzyn\nPolska",
+        "id": "Petrol Station ORLEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.44951820373535,
+          52.59528350830078
+        ]
+      },
+      "properties": {
+        "date": "2019-05-02 13:04:52",
+        "name": "Bar Swojak Wyszków",
+        "address": "11 Listopada 40\n07-200 Wyszków\nPolska",
+        "id": "Bar Swojak Wyszków"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.46598243713379,
+          52.1123161315918
+        ]
+      },
+      "properties": {
+        "date": "2019-05-02 15:37:49",
+        "name": "Petrol Station ORLEN",
+        "address": "MOP Baranów Północ\nA2\n96-314 Baranów\nPolska",
+        "id": "Petrol Station ORLEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0343017578125,
+          51.10977326953468
+        ]
+      },
+      "properties": {
+        "date": "2019-05-02 19:23:09",
+        "name": "Wrocław",
+        "id": "Wrocław"
+      }
+    }
+  ]
+}
