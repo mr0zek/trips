@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "Dolomity",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Boutique Lago di Braies", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 12.0851712, 46.6990932, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Three peaks of Lavaredo", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 12.3027678, 46.6186778, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Parcheggio Tre Cime Lavaredo", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 12.2954128, 46.6122606, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Camping Alla Baita", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 12.2581439000001, 46.5877568, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lago di Misurina", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 12.2545597, 46.5827062, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Parking", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 11.8140596000001, 46.4876221, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Parcheggio", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 12.0095719, 46.5186329, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "St. Magdalena", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 11.717303500000099, 46.6393806, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Camping Schiessstand - Campeggio Bersaglio", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 11.9553115, 46.789365, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Camping Oggau", "description": "miejsce przesiadkowe :)", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 16.6873736, 47.8441928, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Cinque Torri", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 12.0515668, 46.5098675, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Cortina d’Ampezzo", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 12.1356524, 46.5404711, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Camping Castelpietra", "description": "https:\/\/www.wdolomitach.pl\/vad_p_kem.html", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 11.8656903, 46.1949511, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Pala group", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 11.8833333, 46.2333333, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Località Malga Ciapela, 116", "description": "http:\/\/www.marmolada.camp\/en\/<br>https:\/\/www.wdolomitach.pl\/vad_p_kem.html", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 11.9106313, 46.4283799, 0.0 ] } }
+]
+}

@@ -1,5 +1,5 @@
 .post-card-box {
-  margin: 100px 0 100px;
+  margin: 0px 0 0px;
   padding: 0;
 
   li {
@@ -7,7 +7,7 @@
     list-style: none;
     float: left;
     width: 50%;
-    transition: all .3s;
+    transition: all 0.3s;
     &:hover {
       opacity: 0.9;
     }
@@ -32,7 +32,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(0,0,0,.3);
+      background: rgba(0, 0, 0, 0.3);
     }
   }
 
@@ -47,14 +47,14 @@
     }
 
     .post-card-title {
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-weight: 700;
       text-transform: uppercase;
       font-size: 18px;
       color: $white;
       margin: 0 0 10px;
       &:hover {
-        opacity: .8;
+        opacity: 0.8;
       }
     }
 

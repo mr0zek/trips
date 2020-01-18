@@ -1,8 +1,13 @@
 ---
 layout: home-page
 ---
+
+{% assign postsByYear = paginator.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+<h2>{{ year.name }}</h2>
 <ol class="post-card-box clearfix">
-  {% for post in paginator.posts %}
+  {% assign items = year.items | reverse %}
+  {% for post in items %}
   <li>
     <div class="post-card">
       <a href="{{post.url | prepend: site.baseurl}}" class="post-card-image"
@@ -14,7 +19,12 @@ layout: home-page
         <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">|&#32;{{ tag }}</a>
         {% endfor %}
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link">
+          {% assign postDate = post.date | date: '%Y-%m-%d' %}
+          {% if postDate == '2020-01-01' %}
           <h3 class="post-card-title">{{post.title}}</h3>
+          {% else %}
+          <h3 class="post-card-title">{{post.title}} ({{ post.date | date: '%Y-%m-%d' }})</h3>
+          {% endif %}
         </a>
       </div>
 
@@ -22,3 +32,4 @@ layout: home-page
   </li>
   {% endfor %}
 </ol>
+{% endfor %}

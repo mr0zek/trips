@@ -11,6 +11,6 @@ author: # Add name author (optional)
 <script src="{{site.baseurl}}/data/2018-07-28-Wschod_z_namiotem/map.js"></script>
 
 ## Statystyka
-Data: 2018-07-28 - 2018-05-02
-Dystans : 1813
-Odwiedzonych miejsc : 16
+* Data: 2018-07-28 - 2018-05-02
+* Dystans : 1813
+* Odwiedzonych miejsc : 16
