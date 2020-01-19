@@ -1,3 +1,15 @@
+﻿---
+layout: post
+title: Mazury
+date: 2020-01-01
+description: Plany wyjazdu kajakowego na rzece Wda w Borach Tucholskich
+img: 2020-01-01-KajakiWda/main.JPG
+tags: [Kajaki, Polska]
+author: Szymon Szylhabel
+---
+
+<script src="{{site.baseurl}}/data/2020-01-01-KajakiWda/map.js"></script>
+
 # Spływ Wdą
 
 ## Termin
