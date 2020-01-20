@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "id": "Lipusz",
+        "name": "Lipusz",
+		"date":"2020-01-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.78422325849533,
+          54.09867044312432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+	    "name":"Wrocław",
+		"date":"2020-01-01"
+	  },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.032928466796875,
+          51.11063545520133
+        ]
+      }
+    }
+  ]
+}

@@ -67,14 +67,32 @@ $(function () {
     map.fitBounds(line.getBounds());
   }
 
+  $(".hide-button").click(function () {
+    $("#map-border").hide();
+  })
+
+  $(".size-button").click(function () {
+    if ($("#map-border").width() != 600) {
+      $("#map-border").width(600);
+      $("#map-border").height(400);
+    }
+    else {
+      $("#map-border").width(250);
+      $("#map-border").height(400);
+    }
+    map.invalidateSize();
+  })
+
   $(".focus").click(function () {
     let id = $(this).data("marker-id");
     let markerZoomLevel = $(this).data("marker-zoom-level");
+    $("#map-border").show();
     focusOnMarker(id, markerZoomLevel);
   })
 
   $(".focus-on-route").click(function () {
     let routeId = $(this).data("route-id");
+    $("#map-border").show();
     focusOnRoute(routeId);
   })
 
