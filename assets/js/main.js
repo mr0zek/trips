@@ -83,7 +83,7 @@ $(function () {
     map.invalidateSize();
   })
 
-  $(".focus").click(function () {
+  $(".focus-on-marker").click(function () {
     let id = $(this).data("marker-id");
     let markerZoomLevel = $(this).data("marker-zoom-level");
     $("#map-border").show();
@@ -100,7 +100,7 @@ $(function () {
     alert('ok');
     var winTop = $(this).scrollTop();
 
-    $(".focus").each(function () {
+    $(".focus-on-marker").each(function () {
       var section = $(this).offset().top;
       if (winTop >= section - 400) {
         $(this).click();
