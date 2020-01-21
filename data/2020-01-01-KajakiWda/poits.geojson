@@ -3,42 +3,98 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "id": "Lipusz",
-        "name": "Lipusz"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           17.78422325849533,
           54.09867044312432
         ]
-      }
-    },
-    {
-      "type": "Feature",
+      },
       "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "name": "Pole namiotowe"
-      },
+        "id": "Lipusz",
+        "name": "Lipusz"
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
           17.871923446655273,
           54.04726390857421
         ]
+      },
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Pole namiotowe"
       }
     },
-	{
+    {
       "type": "Feature",
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            17.786307334899902,
+            54.095139303755474
+          ],
+          [
+            17.786336839199066,
+            54.09551838478982
+          ],
+          [
+            17.786436080932614,
+            54.096315859307715
+          ],
+          [
+            17.786438763141632,
+            54.09647786902248
+          ],
+          [
+            17.78621345758438,
+            54.096911989022146
+          ],
+          [
+            17.78608739376068,
+            54.09727060646462
+          ],
+          [
+            17.78596132993698,
+            54.0976968538657
+          ],
+          [
+            17.785738706588745,
+            54.09845024723039
+          ],
+          [
+            17.78570920228958,
+            54.09858551056088
+          ],
+          [
+            17.78571456670761,
+            54.09864370511383
+          ],
+          [
+            17.78538465499878,
+            54.09885131744839
+          ],
+          [
+            17.78522104024887,
+            54.09888277377206
+          ],
+          [
+            17.7850279211998,
+            54.098860754347996
+          ],
+          [
+            17.78422325849533,
+            54.0986767344184
+          ],
           [
             17.78422,
             54.098675
@@ -937,7 +993,7 @@
           ],
           [
             17.373331,
-            53.674079999999996
+            53.67408
           ],
           [
             17.373034,
@@ -1833,7 +1889,7 @@
           ],
           [
             16.79299,
-            53.304156999999996
+            53.304157
           ],
           [
             16.792831,
@@ -3820,7 +3876,7 @@
             52.411472
           ],
           [
-            16.726050999999998,
+            16.726051,
             52.409351
           ],
           [
@@ -4517,7 +4573,7 @@
           ],
           [
             16.826637,
-            51.593120999999996
+            51.593121
           ],
           [
             16.844046,
@@ -5435,18 +5491,13 @@
         "stroke": "#FF0000",
         "stroke-width": 4,
         "stroke-opacity": 1,
-        "name": "Data : 2020-01-01<br/>\r\n           Początek : <a href=\"#\" class=\"focus\" data-marker-id=\"Lipusz\">Lipusz</a><br/>\r\n           Koniec : <a href= \"#\" class=\"focus\" data-marker-id=\"Wrocław\">Wrocław</a><br/>\r\n           Długość trasy : 427km<br/>",
-        "distance": 427972
+        "distance": 424049,
+        "start": "Wrocław",
+        "end": "Lipusz"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "name": "Day-1"
-      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6087,44 +6138,50 @@
             54.04740878737776
           ]
         ]
+      },
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Day-1",
+        "distance": 11487
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Specjalistyczny Szpital w Kościerzynie"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           17.949514389038086,
           54.12120602665422
         ]
-      }
-    },
-    {
-      "type": "Feature",
+      },
       "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "id": "Pole Wdzydze Kiszewskie",
-        "name": "Pole namiotowe Wdzydze Kiszewskie"
-      },
+        "name": "Specjalistyczny Szpital w Kościerzynie"
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
           17.922263145446777,
           54.01415531244155
         ]
+      },
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "id": "Pole Wdzydze Kiszewskie",
+        "name": "Pole namiotowe Wdzydze Kiszewskie"
       }
     },
     {
       "type": "Feature",
-      "properties": {},
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6588,6 +6645,132 @@
             17.921512126922607,
             54.014174224758285
           ]
+        ]
+      },
+      "properties": {
+        "distance": 10501
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.786320745944977,
+          54.09499931029847
+        ]
+      },
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kajax"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Złota Rybka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.916297912597656,
+          53.95561837359208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9416823387146,
+          53.93571513378393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Pole namiotowe - Joanna Ewald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.923786640167236,
+          53.947145502901456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Pole biwakowe \"u Lidzi\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.979276180267334,
+          53.901809785864764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Pole biwakowe na skarpie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.97515630722046,
+          53.90612056544668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Rezerwat Kręgi Kamienne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.993781566619873,
+          53.89928126243078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "SPID - FISH WYNAJEM DOMKÓW, POLE NAMIOTOWE, SPŁYWY KAJAKOWE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.05826187133789,
+          53.87675801188689
         ]
       }
     }

@@ -7,8 +7,30 @@ $(function () {
     L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
 
     function onEachFeature(feature, layer) {
-      if (feature.properties && feature.properties.name) {
-        let popup = layer.bindPopup(feature.properties.name);
+      if (feature.properties) {
+        var popup = null
+        if (feature.geometry.type == "LineString") {
+          var description = ""
+          if (feature.properties.date) {
+            description += "Data : " + feature.properties.date + "<br/>";
+          }
+          if (feature.properties.name) {
+            description += feature.properties.name + "<br/>";
+          }
+          if (feature.properties.start) {
+            description += "Początek : " + feature.properties.start + "<br/>";
+          }
+          if (feature.properties.end) {
+            description += "Koniec : " + feature.properties.end + "<br/>";
+          }
+          if (feature.properties.distance) {
+            description += "Dystans : " + parseInt(feature.properties.distance / 1000) + "km";
+          }
+          popup = layer.bindPopup(description);
+        }
+        if (feature.geometry.type == "Point") {
+          popup = layer.bindPopup(feature.properties.name)
+        }
         if (popup.feature.properties && popup.feature.properties.id) {
           popups[popup.feature.properties.id] = popup;
         }
