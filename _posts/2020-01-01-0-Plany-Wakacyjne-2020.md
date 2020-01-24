@@ -2,7 +2,7 @@
 layout: post
 title: Plany wakacyjne 2020
 date: 2020-01-01
-img: 2020-01-01-PlanyWakacyjne2020/main.JPG
+img: 2020-01-01-PlanyWakacyjne2020/main.jpg
 tags: [Kamperowanie, Włochy, Plany, Norwegia]
 author: Szymon Szylhabel
 ---
