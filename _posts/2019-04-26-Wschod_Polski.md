@@ -8,7 +8,9 @@ tags: [Kamperowanie, Polska]
 author: # Add name author (optional)
 --- 
  
-<script src="{{site.baseurl}}/data/2019-04-26-Wschod_Polski/map.js"></script>
+ <script>
+  mapPath ="{{site.baseurl}}/data/2019-04-26-Wschod_Polski/map.json"
+</script>
  
 ## Statystyka
 * 2019-04-26 - 2019.05.02

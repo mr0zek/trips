@@ -1,4 +1,4 @@
-let geoJson = {
+{
   "type": "FeatureCollection",
   "features": [
     {

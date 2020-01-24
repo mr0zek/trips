@@ -31,7 +31,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "name": "Pole namiotowe"
+        "name": "Pole namiotowe PTTK"
       }
     },
     {
@@ -6141,7 +6141,7 @@
       },
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 11487
       }
@@ -6923,7 +6923,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 6900
       },
@@ -7059,7 +7059,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 7470
       },
@@ -7509,7 +7509,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 758
       },
@@ -7603,7 +7603,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 2422
       },
@@ -7745,7 +7745,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 6335
       },
@@ -8027,7 +8027,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 5218
       },
@@ -8309,7 +8309,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 636
       },
@@ -8355,7 +8355,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 1730
       },
@@ -8433,7 +8433,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 2330
       },
@@ -8571,7 +8571,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 4939
       },
@@ -8861,7 +8861,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 3607
       },
@@ -9043,7 +9043,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 2776
       },
@@ -9245,7 +9245,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 1466
       },
@@ -9339,7 +9339,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "distance": 6678
       },

@@ -1,8 +1,49 @@
-$(function () {
-  if (geoJson != undefined) {
-    var map = L.map('map');
+function focusOnMarker(id, zoomLevel) {
 
-    var popups = {}
+  var c = geoJson.features.filter(el => el.properties.id == id)
+  if (c.length == 0) {
+    return
+  }
+  var coord = c[0].geometry.coordinates
+
+  lalo = L.GeoJSON.coordsToLatLng(coord);
+  popups[c[0].properties.id].openPopup();
+
+  if (zoomLevel != undefined) {
+    let currentZoom = map.getZoom()
+    if (currentZoom > zoomLevel) {
+      map.setView(lalo)
+    }
+    else {
+      map.setView(lalo, zoomLevel)
+    }
+  }
+  else {
+    map.setView(lalo)
+  }
+}
+
+function focusOnRoute(id) {
+
+  var c = geoJson.features.filter(el => el.properties.id == id)
+  if (c.length == 0) {
+    return
+  }
+  var coords = c[0].geometry.coordinates;
+  var geom = L.GeoJSON.coordsToLatLngs(coords);
+  var line = L.polyline(geom);
+  popups[id].openPopup();
+
+  map.fitBounds(line.getBounds());
+}
+
+$(function () {
+  $.getJSON(mapPath, function (data) {
+    geoJson = data
+    $("#map-border").show();
+    map = L.map('map');
+
+    popups = {}
 
     L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
 
@@ -40,7 +81,7 @@ $(function () {
       }
     }
 
-    jsonLayer = L.geoJSON(geoJson, {
+    jsonLayer = L.geoJSON(data, {
       onEachFeature: onEachFeature,
       style: function (feature) {
         if (feature.properties != undefined && feature.properties.stroke != undefined) {
@@ -55,89 +96,53 @@ $(function () {
     }).addTo(map);
 
     map.fitBounds(jsonLayer.getBounds());
-  }
 
-  function focusOnMarker(id, zoomLevel) {
+    $(".hide-button").click(function () {
+      $("#map-border").hide();
+    })
 
-    var c = geoJson.features.filter(el => el.properties.id == id)
-
-    var coord = c[0].geometry.coordinates
-
-    lalo = L.GeoJSON.coordsToLatLng(coord);
-    popups[c[0].properties.id].openPopup();
-
-    if (zoomLevel != undefined) {
-      let currentZoom = map.getZoom()
-      if (currentZoom > zoomLevel) {
-        map.setView(lalo)
+    $(".size-button").click(function () {
+      if ($("#map-border").width() < 600) {
+        $("#map-border").width(600);
+        $("#map-border").height(400);
+      }
+      else if ($("#map-border").width() < 800) {
+        $("#map-border").width(800);
+        $("#map-border").height(600);
       }
       else {
-        map.setView(lalo, zoomLevel)
+        $("#map-border").width(250);
+        $("#map-border").height(400);
       }
-    }
-    else {
-      map.setView(lalo)
-    }
-  }
+      map.invalidateSize();
+    })
 
-  function focusOnRoute(id) {
+    $(".focus-on-marker").click(function () {
+      let id = $(this).data("marker-id");
+      let markerZoomLevel = $(this).data("marker-zoom-level");
+      $("#map-border").show();
+      focusOnMarker(id, markerZoomLevel);
+    })
 
-    var c = geoJson.features.filter(el => el.properties.id == id)
+    $(".focus-on-route").click(function () {
+      let routeId = $(this).data("route-id");
+      $("#map-border").show();
+      focusOnRoute(routeId);
+    })
 
-    var coords = c[0].geometry.coordinates;
-    var geom = L.GeoJSON.coordsToLatLngs(coords);
-    var line = L.polyline(geom);
-    popups[id].openPopup();
+    $('.flex-container').scroll(function () {
+      alert('ok');
+      var winTop = $(this).scrollTop();
 
-    map.fitBounds(line.getBounds());
-  }
-
-  $(".hide-button").click(function () {
-    $("#map-border").hide();
-  })
-
-  $(".size-button").click(function () {
-    if ($("#map-border").width() < 600) {
-      $("#map-border").width(600);
-      $("#map-border").height(400);
-    }
-    else if ($("#map-border").width() < 800) {
-      $("#map-border").width(800);
-      $("#map-border").height(600);
-    }
-    else {
-      $("#map-border").width(250);
-      $("#map-border").height(400);
-    }
-    map.invalidateSize();
-  })
-
-  $(".focus-on-marker").click(function () {
-    let id = $(this).data("marker-id");
-    let markerZoomLevel = $(this).data("marker-zoom-level");
-    $("#map-border").show();
-    focusOnMarker(id, markerZoomLevel);
-  })
-
-  $(".focus-on-route").click(function () {
-    let routeId = $(this).data("route-id");
-    $("#map-border").show();
-    focusOnRoute(routeId);
-  })
-
-  $('.flex-container').scroll(function () {
-    alert('ok');
-    var winTop = $(this).scrollTop();
-
-    $(".focus-on-marker").each(function () {
-      var section = $(this).offset().top;
-      if (winTop >= section - 400) {
-        $(this).click();
-      }
+      $(".focus-on-marker").each(function () {
+        var section = $(this).offset().top;
+        if (winTop >= section - 400) {
+          $(this).click();
+        }
+      });
     });
   });
-})
-
+});
 
 $(function () {
   // Cache variables for increased performance on devices with slow CPUs.

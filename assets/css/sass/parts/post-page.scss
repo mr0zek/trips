@@ -22,35 +22,6 @@
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-.map {
-  height: 100%;
-  width: 100%;
-}
-
-.map-border {
-  height: 400px;
-  width: 250px;
-  top: 10px;
-  right: 25px;
-  bottom: 0;
-  position: absolute;
-  z-index: 100;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 5px 5px 29px 5px;
-  background-color: white;
-}
-
-.hide-button {
-  margin-left: 15px;
-  float: right;
-}
-
-.size-button {
-  margin-left: 5px;
-  float: right;
-}
-
 .header-page {
   position: relative;
   margin-bottom: 30px;
