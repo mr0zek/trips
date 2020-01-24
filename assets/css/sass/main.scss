@@ -155,6 +155,10 @@ pre {
 /* = = = = = = = = = = Media = = = = = = = = = = */
 @import "media";
 
+@import "photoswipe/photoswipe";
+
+@import "photoswipe/default-skin/default-skin";
+
 .my-gallery {
   width: 100%;
   float: left;

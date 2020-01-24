@@ -9,6 +9,9 @@ $(function () {
     function onEachFeature(feature, layer) {
       if (feature.properties) {
         var popup = null
+        if (feature.properties.id == undefined && feature.properties.name != undefined) {
+          feature.properties.id = feature.properties.name
+        }
         if (feature.geometry.type == "LineString") {
           var description = ""
           if (feature.properties.date) {
@@ -94,9 +97,13 @@ $(function () {
   })
 
   $(".size-button").click(function () {
-    if ($("#map-border").width() != 600) {
+    if ($("#map-border").width() < 600) {
       $("#map-border").width(600);
       $("#map-border").height(400);
+    }
+    else if ($("#map-border").width() < 800) {
+      $("#map-border").width(800);
+      $("#map-border").height(600);
     }
     else {
       $("#map-border").width(250);
