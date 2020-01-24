@@ -17,9 +17,6 @@ author: Szymon Szylhabel
 * średnia temperatura powietrza 18-20 stopni (https://www.gdzie-i-kiedy.pl/when/europa/sycylia/palermo/kwiecien/)
 * średnia temperatura wody 15-17 stopni - kąpieli raczej nie będzie(chyba że aqua park) ale na rowery idealnie 
 * Co z nieobecnością filipa - zwolnienie ? 
-
-## Materiały
-- http://wylatujemy.pl/sycylia-catania/
   
 # Majówka w kamperze
 * Data - 1-3.05 Weekend Majowy 
