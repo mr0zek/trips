@@ -1,1 +1,5 @@
-<a href="#" class="focus-on-route" data-route-id="{{ include.id }}">Pokaż na mapie</a>
+{% if include.name == null %}
+<a href="#" class="focus-on-route" data-route-id="{{ include.id }}">{{ include.id }}</a>
+{% else %}
+<a href="#" class="focus-on-route" data-route-id="{{ include.id }}">{{ include.name }}</a>
+{% endif %}

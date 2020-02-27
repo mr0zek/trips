@@ -73,7 +73,11 @@ $(function () {
           popup = layer.bindPopup(description);
         }
         if (feature.geometry.type == "Point") {
-          popup = layer.bindPopup(feature.properties.name)
+          var description = "<h2>" + feature.properties.name + "</h2><br/>";
+          if (feature.properties.description) {
+            description += feature.properties.description;
+          }
+          popup = layer.bindPopup(description)
         }
         if (popup.feature.properties && popup.feature.properties.id) {
           popups[popup.feature.properties.id] = popup;

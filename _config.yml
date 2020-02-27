@@ -2,7 +2,7 @@
 email: szymon.szylhabel@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Plany, podróże, mażenia ...
-permalink: ':title/'
+permalink: '/posts/:year/:month/:day/:title.html'
 baseurl: "/trips" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -45,3 +45,4 @@ plugins:
 
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
+
