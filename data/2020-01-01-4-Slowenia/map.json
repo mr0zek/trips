@@ -11,7 +11,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Triglav",
+        "name": "Park Narodowy Triglav",
         "description": "Park narodowy w północno-zachodniej Słowenii, znany z góry Triglav, wodospadu Savica i jeziora Bohinj."
       },
       "geometry": {
@@ -25,8 +25,50 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Vintgar Gorge",
-        "description": null
+        "name": "Wodospad Savica",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7943844,
+          46.2927786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jezioro Jasna",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7816117,
+          46.4741521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jezioro Krn",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5428923,
+          46.2850303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wąwóz Vintgar",
+        "description": ""
       },
       "geometry": {
         "type": "Point",
@@ -39,8 +81,36 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Jezioro Bohinjsko",
-        "description": null
+        "name": "Camp Zlatorog Bohinj",
+        "description": "Fajny kemping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8381371,
+          46.2784651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Logar Valley",
+        "description": "Dolina Logarska - dobra na rowery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5427822,
+          46.3875116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jezioro Bohinj",
+        "description": ""
       },
       "geometry": {
         "type": "Point",
@@ -67,8 +137,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Postojna Cave",
-        "description": null
+        "name": "Jaskinia Postojna",
+        "description": " jaskinia słoweńska w pobliżu miasta Postojna mająca blisko 20 km podziemnych sal i korytarzy, udostępniona została turystom już na początku XIX wieku. Trasa turystyczna o długości 5,5 km zajmuje tylko 1,5 godziny, gdyż 4-kilometrowy odcinek tzw. Starego Korytarza pokonuje się kolejką elektryczną. Do przejścia pozostaje 1700 m. Przewodnicy posługują się wszystkimi podstawowymi językami obcymi i swoim językiem słoweńskim, w języku polskim dostępne jedynie przewodniki audio."
       },
       "geometry": {
         "type": "Point",
@@ -82,7 +152,7 @@
       "type": "Feature",
       "properties": {
         "name": "Predjamski Grad",
-        "description": null
+        "description": "Predjamski Grad – czteropiętrowy zamek we wsi Predjama w okręgu Postojna w Słowenii, pod ponadstumetrową pionową skałą wchodzącą w skład wyżyn słoweńskiego Krasu. Zamek wbudowany był pierwotnie w XII wieku w obszerną jaskinię w skałach, zakrywając jej wejście. Jego ślady widoczne są w głębi jaskini i wchodzą w skład poszczególnych zamkowych pomieszczeń. Później – około roku 1570 – został rozbudowany do obecnego kształtu. Partie jaskini wykorzystywane przez zamek mają kontynuację z rozległym systemem korytarzy jaskiniowych, które położone są w większości poniżej zamku."
       },
       "geometry": {
         "type": "Point",
@@ -103,20 +173,6 @@
         "coordinates": [
           14.0938053,
           46.363598
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Jaskinie Szkocjańskie",
-        "description": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.9899793,
-          45.6658039
         ]
       }
     }

@@ -8,7 +8,9 @@ tags: [Namiot, Polska]
 author: # Add name author (optional)
 --- 
 
-<script src="{{site.baseurl}}/data/2018-07-28-Wschod_z_namiotem/map.js"></script>
+<script>
+  mapPath ="{{site.baseurl}}/data/2018-07-28-Wschod_z_namiotem/map.json"
+</script>
 
 ## Statystyka
 * Data: 2018-07-28 - 2018-05-02

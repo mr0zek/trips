@@ -74,9 +74,15 @@ $(function () {
         }
         if (feature.geometry.type == "Point") {
           var description = "<h2>" + feature.properties.name + "</h2><br/>";
+
           if (feature.properties.description) {
-            description += feature.properties.description;
+            description += feature.properties.description + "<br/>";
           }
+          description = description + "<div class=\"externalLinks\">"
+          description = description + "<a target=\"blank\" href=\"https://www.google.com/search?q=" + feature.properties.name + "&tbm=isch\">Google pictures</a>";
+          description = description + "<a target=\"blank\" href=\"https://www.google.com/maps/search/" + feature.properties.name + "\">Google maps</a>";
+          description = description + "<a target=\"blank\" href=\"https://pl.wikipedia.org/wiki/Specjalna:Szukaj/" + feature.properties.name + "\">Wikipedia</a>"
+          description = description + "</div>"
           popup = layer.bindPopup(description)
         }
         if (popup.feature.properties && popup.feature.properties.id) {

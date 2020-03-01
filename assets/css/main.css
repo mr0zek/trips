@@ -2016,6 +2016,14 @@ pre code {
   float: right;
 }
 
+.externalLinks {
+  margin-top: 5px;
+}
+
+.externalLinks a {
+  margin-right: 10px;
+}
+
 /*! PhotoSwipe Default UI CSS by Dmitry Semenov | photoswipe.com | MIT license */
 /*
 

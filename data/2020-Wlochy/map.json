@@ -214,6 +214,20 @@
           37.064526461164725
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spiaggia villaggio europa",
+        "description": "Fajny kemping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4668727,
+          45.7557159
+        ]
+      }
     }
   ]
 }
