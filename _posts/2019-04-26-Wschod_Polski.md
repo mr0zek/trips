@@ -7,7 +7,7 @@ img: 2019-04-26-Wschod_Polski/main.JPG
 tags: [Kamperowanie, Polska]
 author: # Add name author (optional)
 --- 
- 
+   
 <script>
   mapPath ="{{site.baseurl}}/data/2019-04-26-Wschod_Polski/map.json"
 </script>
@@ -17,7 +17,7 @@ author: # Add name author (optional)
 * 1544 przejechanych kilometrów
 * 23 odwiedzonych miejsc
  
-## Dzień 1 (26.04.2019) 
+## Dzień 1 (26.04.2019)  
 
 <div class="my-gallery">
   {% include gallery.html picturePath="https://lh3.googleusercontent.com/0V5j5DOKTdYuX_9wV5zuHtQYFzI3E4J7qM2t9IJr3BJgIKhdW9n4YnLZmGyJR38weqojKX1WgakxwX3C0Ox_5oHL3biJkRqRT79lx-ZS8gs-zbYxB5jxY9co6YOwrADMLS2D84e0" %}

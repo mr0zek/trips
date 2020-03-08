@@ -43,6 +43,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-include: [_pages]
+include: [_pages, _customPages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
 

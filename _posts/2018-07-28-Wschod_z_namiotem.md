@@ -10,7 +10,7 @@ author: # Add name author (optional)
 
 <script>
   mapPath ="{{site.baseurl}}/data/2018-07-28-Wschod_z_namiotem/map.json"
-</script>
+</script> 
 
 ## Statystyka
 * Data: 2018-07-28 - 2018-05-02
