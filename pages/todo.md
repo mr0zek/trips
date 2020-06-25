@@ -8,9 +8,7 @@ title: Do zrobienia
 - przeczyścić kran
 - Łazienka dokręcić szafkę do kibelka
 - podpiąć gniazdka pod inverter - oprócz lodówki
-- czujnik od podnóżka w kabinie 
 - czujka w zabudowie od podnóżka
-- wieszaki w łazience 
 - Stolik 55dł x 57 sz 20mm wysuwane bolce jak w bramce na górze
 - kamera zakłucenia
 - Oświetlenie boczne led

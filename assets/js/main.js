@@ -75,6 +75,12 @@ $(function () {
         if (feature.geometry.type == "Point") {
           var description = "<h2>" + feature.properties.name + "</h2><br/>";
 
+          if (feature.properties.photoPath) {
+            let s = feature.properties.photoPath.split(";");
+            s.forEach(element => {
+              description = description + "<img width=\"300\" src=\"" + element + "\"/>";
+            });
+          }
           if (feature.properties.description) {
             description += feature.properties.description + "<br/>";
           }
@@ -151,8 +157,32 @@ $(function () {
         }
       });
     });
-  });
+  })
 });
+
+$(function () {
+  $(".gallery").unitegallery();
+
+  $(".loadImage").each(function () {
+    let id = $(this).data("image-id");
+    let url = $(this).data("album-url");
+
+
+    let img = $(this)
+
+    $.get(url, function (data) {
+      let re = /"(https\:[/][/].*googleusercontent.com[/][^(a/)].*?)"/;
+
+      let val = data.match(re)[id];
+
+      $(img).attr("src", val)
+    }).fail(function (jqXHR, textStatus, errorThrown) {
+      alert("error");
+    });
+
+  });
+
+})
 
 $(function () {
   // Cache variables for increased performance on devices with slow CPUs.

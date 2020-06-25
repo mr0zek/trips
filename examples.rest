@@ -1,0 +1,56 @@
+GET https://photoslibrary.googleapis.com/v1/albums
+Authorization: Bearer ya29.a0AfH6SMC_DJNsU5w7ebAfLyZsAUvjNPrcqU8SlI3NmAY3bcUP0SXhsVHj_IFuGqXpsy-cYc8KxwdeyhCDIYaDrSPmlxLkGe82XGN7TbVPr4jVW-Vjk6XBSXQuuaYhflgYifmULnAt_b6WdfWeCF9g8aJFyZSziG8f0ss
+
+GET http://accounts.google.com/o/oauth2/v2/auth?response_type=code&redirect_uri=http://127.0.0.1:8080/auth/google/callback&scope=https://www.googleapis.com/auth/photoslibrary.readonly/profile&client_id=193597893552-h3gblc65neg53jnctufj1rg8amov3eah.apps.googleusercontent.com 
+HTTP/1.1
+
+
+POST https://photoslibrary.googleapis.com/v1/albums
+Content-type: application/json
+Authorization: Bearer ya29.a0AfH6SMC_DJNsU5w7ebAfLyZsAUvjNPrcqU8SlI3NmAY3bcUP0SXhsVHj_IFuGqXpsy-cYc8KxwdeyhCDIYaDrSPmlxLkGe82XGN7TbVPr4jVW-Vjk6XBSXQuuaYhflgYifmULnAt_b6WdfWeCF9g8aJFyZSziG8f0ss
+
+{
+  "album": {
+    "title": "2020-05-09-Antonin"
+  }
+}
+
+POST https://photoslibrary.googleapis.com/v1/mediaItems:search
+Content-type: application/json
+Authorization: Bearer ya29.a0AfH6SMC_DJNsU5w7ebAfLyZsAUvjNPrcqU8SlI3NmAY3bcUP0SXhsVHj_IFuGqXpsy-cYc8KxwdeyhCDIYaDrSPmlxLkGe82XGN7TbVPr4jVW-Vjk6XBSXQuuaYhflgYifmULnAt_b6WdfWeCF9g8aJFyZSziG8f0ss
+
+{
+  "pageSize": "100",
+  "albumId": "ACVA6Rw6uCzmZ0G-dqpf7uoRZFZQcLdFvsO-T3SHP0yL52fHC9Cn5nccK34N35AhbEf9XkokTjPx"
+}
+
+GET https://photoslibrary.googleapis.com/v1/mediaItems/media-item-id
+Content-type: application/json
+Authorization: Bearer oauth2-token
+
+https://drive.google.com/open?id=1SrntWkFmUKOh0uRNYe_oviuJLF8DDJKA
+
+GET https://photos.app.goo.gl/P5cwBKW8Ztwrh4rR8 
+Host: photos.app.goo.gl
+Cache-Control: no-cache
+Postman-Token: afd4bc44-3a3d-e03c-8c3e-c5d5208b0ef9
+
+Get https://photos.app.goo.gl/P5cwBKW8Ztwrh4rR8
+
+
+GET https://photos.app.goo.gl/share/AF1QipP4HuA1cyZlo3Iploz9q8278ii0aFh0wYDqtgthbf7TE0wfPfvjMEKr1br_LsqfWQ?key=UUFIYUZVVWcwMHUwTWluZUlWVV9Ucl94alRZd2Jn
+
+
+https://photos.google.com/_/PhotosUi/data/batchexecute?rpcids=sq0lWe%2CVrseUb&f.sid=-472000790786975346&bl=boq_photosuiserver_20200513.05_p0&hl=pl&soc-app=165&soc-platform=1&soc-device=1&_reqid=600991&rt=c
+
+https://lh3.googleusercontent.com/pw/ACtC-3fOM4otxqEYvlgk2mSs02oigDkZasVXzuValLadNUglR8Bw-OxHl-0q5OvvKo9ohsiG5dIY8Y3SUdp9Ez5wPhFD5UypzX8EZpAk3kD5_XQKWy4mjv0OfaFjME7jbYDHjQPKntGIHsDyk_IGEuRxUA7HUg\
+https://lh3.googleusercontent.com/pw/ACtC-3dST4V5N6upkeZhTFdI0M4pfY08hFUqN3TBzhlHRLEY2Le2u4clS4rQ6qZ8pEOjGyk_1trcAL2g6iBtevPPHX-ypUGyqNcEDxc7UKCzFatJ8ZGp3r3SITOHHyZ1qVVNiEfAt_zp09n-zaeVoS4vBwB2wQ=w678-h903-no
+
+
+
+post https://photos.google.com/_/PhotosUi/data/batchexecute?rpcids=sq0lWe%2CVrseUb&f.sid=-6835931953080452088&bl=boq_photosuiserver_20200528.05_p0&hl=pl&soc-app=165&soc-platform=1&soc-device=1&_reqid=1777445&rt=c
+post https://photos.google.com/_/PhotosUi/data/batchexecute?rpcids=VrseUb&f.sid=-6835931953080452088&bl=boq_photosuiserver_20200528.05_p0&hl=pl&soc-app=165&soc-platform=1&soc-device=1&_reqid=1877445&rt=c
+https://lh3.googleusercontent.com/pw/ACtC-3c4tez3SxqP1vaxwSLCxMJ46oz06CYJ9MgNtdLo2l2IruL2F8d1Dqt554DkXI2Fgt2JbhlKaeukQoP-3zUJ2E79fKZUU8R_azRlBg5Ys7Uk2rAIXwXpSZYTIFkD-zhm8PwXBg3JqgNH8X20xX3ShhilbQ=w1360-h904-no?authuser=0
+
+post https://photos.google.com/_/PhotosUi/data/batchexecute?rpcids=sq0lWe&f.sid=-6835931953080452088&bl=boq_photosuiserver_20200528.05_p0&hl=pl&soc-app=165&soc-platform=1&soc-device=1&_reqid=2277445&rt=c
+post https://photos.google.com/_/PhotosUi/data/batchexecute?rpcids=VrseUb&f.sid=-6835931953080452088&bl=boq_photosuiserver_20200528.05_p0&hl=pl&soc-app=165&soc-platform=1&soc-device=1&_reqid=2377445&rt=c
