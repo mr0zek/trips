@@ -4,6 +4,7 @@ title: Do zrobienia
 ---  
 
 # Do zrobienia:
+- kabel elm327 do fiata
 - przeczyścić kran
 - Łazienka dokręcić szafkę do kibelka
 - wygłuszenie w kabinie
