@@ -7,17 +7,15 @@ title: Do zrobienia
 - kabel elm327 do fiata
 - przeczyścić kran
 - Łazienka dokręcić szafkę do kibelka
-- wygłuszenie w kabinie
 - podpiąć gniazdka pod inverter - oprócz lodówki
 - czujnik od podnóżka w kabinie 
 - czujka w zabudowie od podnóżka
-- wieszaki w łazience 60 cm x2
+- wieszaki w łazience 
 - Stolik 55dł x 57 sz 20mm wysuwane bolce jak w bramce na górze
 - kamera zakłucenia
 - Oświetlenie boczne led
 - prestawić zmknięcia z okna z tyłu
 - wentylator do okna dachowego
-- rura od ogrzewania dziurawa (na siedzeniu chłopaków)
 - wentylacja zaciągana z podkampera
 - sprawdzić Lusterko prawe dolne
 - Termometr zewn.i wewnętrzny
@@ -39,6 +37,7 @@ title: Do zrobienia
     - <https://www.bitmat.pl/Pianki-wygluszajace/K6s-Pianka-wygluszajaca-akustyczna-kauczukowa-6mm-izolacyjna?fbclid=IwAR2nU-wqZmugRkzYjKzVOE-OzfCOBVvjMmb2xJHTJLHjbhS1QEp1JsNKaJ0>
 
 # Zrobione
+- <s>rura od ogrzewania dziurawa (na siedzeniu chłopaków)</s>
 - <s>Kosz na śmieci zamocować  </s>
 - <s>Zakleić rurę od ogrzewania pod chłopakami</s>
 - <s>Odkręcić trzymadło na kubek</s>
