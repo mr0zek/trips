@@ -6,13 +6,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.9036677852273,
-          50.342015968635678,
-          288.79998779296875
+          16.8929301481694,
+          50.339738857001066,
+          118.59999847412109
         ]
       },
       "properties": {
-        "name": "postój o godzinie : 10:22:46"
+        "name": "postój o godzinie : 09:52:19"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.897944789379835,
+          50.3422219119966,
+          219.80000305175781
+        ]
+      },
+      "properties": {
+        "name": "postój o godzinie : 10:07:47"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.904010185971856,
+          50.342061817646027,
+          289.60000610351562
+        ]
+      },
+      "properties": {
+        "name": "postój o godzinie : 10:24:17"
       }
     },
     {
@@ -34,13 +62,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.911527579650283,
-          50.338411079719663,
-          400.20001220703125
+          16.911544427275658,
+          50.33844125457108,
+          399.20001220703125
         ]
       },
       "properties": {
-        "name": "postój o godzinie : 10:46:02"
+        "name": "postój o godzinie : 10:45:55"
       }
     },
     {
@@ -48,13 +76,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.915653571486473,
-          50.336842993274331,
-          386.20001220703125
+          16.915010511875153,
+          50.337126972153783,
+          383.20001220703125
         ]
       },
       "properties": {
-        "name": "postój o godzinie : 11:05:31"
+        "name": "postój o godzinie : 11:03:21"
       }
     },
     {
@@ -76,6 +104,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.894004121422768,
+          50.330597050487995,
+          238.80000305175781
+        ]
+      },
+      "properties": {
+        "name": "postój o godzinie : 12:41:23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.899855947121978,
           50.334618268534541,
           184.80000305175781
@@ -90,13 +132,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.898980876430869,
-          50.3363922983408,
-          175.60000610351562
+          16.898954389616847,
+          50.336567312479019,
+          174.0
         ]
       },
       "properties": {
-        "name": "postój o godzinie : 12:57:37"
+        "name": "postój o godzinie : 12:58:00"
       }
     },
     {
