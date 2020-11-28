@@ -1,5 +1,2 @@
-_site
-.sass-cache
-.jekyll-metadata
-node_modules/
-yarn.lock
+/node_modules/
+/_site/
